@@ -22,3 +22,5 @@ routerApi(app);
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app; // Add this line at the end of your app.js
